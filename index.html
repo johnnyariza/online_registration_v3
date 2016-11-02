@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The code Review</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="main_header">
+        <h1>THE CODE REVIEW</h1>
+    </div>
+
+    <form action="index.html" method="post">
+        <div class="banner">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </div>
+
+        <fieldset class="contact_info">
+            <legend ><span class="number">1</span>Contact Information</legend>
+            <label for="name">Full Name</label>
+            <input type="text" placeholder="Required    " id="name" name="user_name">
+
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="Required     " id="email" name="user_email">
+            
+            <label for="additional_email">Additional Email Address</label>
+            <input type="email" placeholder="Optional      " id="additional_email" name="user_additional_email">
+            
+            <label for="home_phone">Home Phone Number</label>
+            <input type="tel" id="home_phone" name="user_home_phone">
+            
+            <label for="mobile_phone">Mobile Phone Number</label>
+            <input type="tel" id="mobile_phone" name="user_mobile_phone">
+            
+            <label for="work_phone">Work Phone Number</label>
+            <input type="tel" id="work_phone" name="user_work_phone">
+
+            <label for="address">Street Address</label>
+            <input type="text" id="address" name="user_address">
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="user_city">
+
+            <label for="state">State</label>
+            <select id="state" name="user_state">
+                <option value="Choose State">Choose State</option>
+                <option value='Alabama'>AL</option>
+                <option value='Alaska'>AK</option>
+                <option value='Arizona'>AZ</option>
+                <option value='Arkansas'>AR</option>
+                <option value='California'>CA</option>
+                <option value='Colorado'>CO</option>
+                <option value='Connecticut'>CT</option>
+                <option value='Delaware'>DE</option>
+                <option value='Florida'>FL</option>
+                <option value='Georgia'>GA</option>
+                <option value='Hawaii'>HI</option>
+                <option value='Idaho'>ID</option>
+                <option value='Illinois'>IL</option>
+                <option value='Indiana'>IN</option>
+                <option value='Iowa'>IA</option>
+                <option value='Kansas'>KS</option>
+                <option value='Kentucky'>KY</option>
+                <option value='Louisiana'>LA</option>
+                <option value='Maine'>ME</option>
+                <option value='Maryland'>MD</option>
+                <option value='Massachussetts'>MA</option>
+                <option value='Michigan'>MI</option>
+                <option value='Minnesota'>MN</option>
+                <option value='Mississippi'>MS</option>
+                <option value='Missouri'>MO</option>
+                <option value='Montana'>MT</option>
+                <option value='Nebraska'>NE</option>
+                <option value='Nevada'>NV</option>
+                <option value='New Hampshire'>NH</option>
+                <option value='New Jersey'>NJ</option>
+                <option value='New Mexico'>NM</option>
+                <option value='New York'>NY</option>
+                <option value='North Carolina'>NC</option>
+                <option value='North Dakota'>ND</option>
+                <option value='Ohio'>OH</option>
+                <option value='Oklahoma'>OK</option>
+                <option value='Oregon'>OR</option>
+                <option value='Pennsylvania'>PA</option>
+                <option value='Rhode Island'>RI</option>
+                <option value='South Carolina'>SC</option>
+                <option value='South Dakota'>SD</option>
+                <option value='Tennessee'>TN</option>
+                <option value='Texas'>TX</option>
+                <option value='Utah'>UT</option>
+                <option value='Vermont'>VT</option>
+                <option value='Virginia'>VA</option>
+                <option value='Washington'>WA</option>
+                <option value='West Virginia'>WV</option>
+                <option value='Wisconsin'>WI</option>
+                <option value='Wyoming'>WY</option>
+            </select>
+            
+            <label for="ocupation">Ocupation</label>
+            <select id="ocupation" name="user_ocupation">
+                <option value="Choose Ocupation">Choose Ocupation</option>
+                <option value="student">Student</option>
+                <option value="self_employee">Self Employee</option>
+                <option value="employee">employee</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
+
+            <label for="zipcode">Zip code</label>
+            <input type="text" id="zipcode" name="user_zipcode">
+        </fieldset>
+
+        <fieldset class="newsletter">
+            <legend><span class="number">2</span>Newsletter</legend>
+            <p>Select the newsletters you would like to receive</p>
+            <input type="checkbox" id="html_news" value="html_news" name="html_news">
+            <label for="html_news" class="light">HTML News</label>
+            <br>
+
+            <input type="checkbox" id="CSS_news" value="CSS_news" name="css_news">
+            <label for="CSS_news" class="light">CSS News</label>
+            <br>
+
+            <input type="checkbox" id="javascript_news" value="javascript_news" name="javascript_news">
+            <label for="javascript_news" class="light">Javascript News</label>
+
+            <p>Newsletter format</p>
+            <input type="radio" id="html" value="html" name="news_format">
+            <label for="html" class="light">HTML</label>
+            <br>
+
+            <input type="radio" id="plain_text" value="plain_text" name="news_format">
+            <label for="plain_text" class="light">Plain Text</label>
+
+            <p>Other topics you'd like to hear about</p>
+            <label for="topics"></label>
+            <textarea id="topics" name="topics"></textarea>
+
+            <button type="submit">Sign Up</button>
+        </fieldset>
+
+
+
+        <footer>
+            <p>Copyright The Code Review</p>
+        </footer>
+    </form>
+
+
+
+</body>
+
+</html>
